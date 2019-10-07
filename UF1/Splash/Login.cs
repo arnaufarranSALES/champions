@@ -20,16 +20,6 @@ namespace Splash
         private void button1_Click(object sender, EventArgs e)
         {
             Entrar();
-            Close();
-        }
-
-        private void Entrar()
-        {
-            if (user.Text.Equals("admin") && pass.Text.Equals("admin"))
-            {
-                Splash S = new Splash();
-                S.ShowDialog();
-            }
         }
 
         private void user_KeyPress(object sender, KeyPressEventArgs e)
@@ -37,7 +27,6 @@ namespace Splash
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
                 Entrar();
-                Close();
             }
         }
 
@@ -46,7 +35,22 @@ namespace Splash
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
                 Entrar();
+            }
+        }
+
+        private void Entrar()
+        {
+            if (textb_user.Text.Equals("admin") && textb_pass.Text.Equals("admin"))
+            {
+                Splash S = new Splash();
+                S.ShowDialog();
                 Close();
+            }
+            else
+            {
+                String msg_error = "ERROR. USUARI O CONTRASENYA INCORRECTES";
+
+                MessageBox.Show(msg_error, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

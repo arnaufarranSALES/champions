@@ -29,49 +29,49 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.user = new System.Windows.Forms.TextBox();
-            this.pass = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pic_logo = new System.Windows.Forms.PictureBox();
+            this.textb_user = new System.Windows.Forms.TextBox();
+            this.textb_pass = new System.Windows.Forms.TextBox();
+            this.btn_entrar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pic_logo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 180);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pic_logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_logo.Image")));
+            this.pic_logo.Location = new System.Drawing.Point(12, 12);
+            this.pic_logo.Name = "pic_logo";
+            this.pic_logo.Size = new System.Drawing.Size(173, 180);
+            this.pic_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_logo.TabIndex = 0;
+            this.pic_logo.TabStop = false;
             // 
-            // user
+            // textb_user
             // 
-            this.user.Location = new System.Drawing.Point(254, 76);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(130, 20);
-            this.user.TabIndex = 1;
-            this.user.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.user_KeyPress);
+            this.textb_user.Location = new System.Drawing.Point(254, 76);
+            this.textb_user.Name = "textb_user";
+            this.textb_user.Size = new System.Drawing.Size(130, 20);
+            this.textb_user.TabIndex = 1;
+            this.textb_user.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.user_KeyPress);
             // 
-            // pass
+            // textb_pass
             // 
-            this.pass.Location = new System.Drawing.Point(254, 115);
-            this.pass.Name = "pass";
-            this.pass.PasswordChar = '*';
-            this.pass.Size = new System.Drawing.Size(130, 20);
-            this.pass.TabIndex = 2;
-            this.pass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.pass_KeyPress);
+            this.textb_pass.Location = new System.Drawing.Point(254, 115);
+            this.textb_pass.Name = "textb_pass";
+            this.textb_pass.PasswordChar = '*';
+            this.textb_pass.Size = new System.Drawing.Size(130, 20);
+            this.textb_pass.TabIndex = 2;
+            this.textb_pass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.pass_KeyPress);
             // 
-            // button1
+            // btn_entrar
             // 
-            this.button1.Location = new System.Drawing.Point(309, 154);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_entrar.Location = new System.Drawing.Point(309, 154);
+            this.btn_entrar.Name = "btn_entrar";
+            this.btn_entrar.Size = new System.Drawing.Size(75, 23);
+            this.btn_entrar.TabIndex = 3;
+            this.btn_entrar.Text = "Entrar";
+            this.btn_entrar.UseVisualStyleBackColor = true;
+            this.btn_entrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 
@@ -79,16 +79,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(460, 243);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pass);
-            this.Controls.Add(this.user);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btn_entrar);
+            this.Controls.Add(this.textb_pass);
+            this.Controls.Add(this.textb_user);
+            this.Controls.Add(this.pic_logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,10 +96,10 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox user;
-        private System.Windows.Forms.TextBox pass;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pic_logo;
+        private System.Windows.Forms.TextBox textb_user;
+        private System.Windows.Forms.TextBox textb_pass;
+        private System.Windows.Forms.Button btn_entrar;
     }
 }
 
