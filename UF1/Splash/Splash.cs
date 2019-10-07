@@ -16,5 +16,20 @@ namespace Splash
         {
             InitializeComponent();
         }
+
+        int counter = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            counter++;
+            progress.PerformStep();
+            percent.Text = progress.Value.ToString() + "%";
+
+            if (counter > 100)
+            {
+                timer1.Stop();
+                Hide();
+            }
+        }
     }
 }
