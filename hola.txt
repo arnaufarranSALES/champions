@@ -1,2 +1,3 @@
 Hola buenas pau y edu
 //este archivo hya se podria eliminar no ya que tenemos el proyecto o esto utilizarlo para las pautas del programa tema organcizar el codigo etc etc.!!!
+edu imbecil

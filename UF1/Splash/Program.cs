@@ -16,7 +16,11 @@ namespace Splash
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Menu());
+=======
+            Application.Run(new Login());
+>>>>>>> 8c840af3fbc925e889f9dc1c618f9caf9a211f00
         }
     }
 }
