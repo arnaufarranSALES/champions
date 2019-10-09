@@ -48,6 +48,7 @@
             // 
             // textb_user
             // 
+            this.textb_user.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textb_user.Location = new System.Drawing.Point(254, 76);
             this.textb_user.Name = "textb_user";
             this.textb_user.Size = new System.Drawing.Size(130, 20);
@@ -56,6 +57,7 @@
             // 
             // textb_pass
             // 
+            this.textb_pass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textb_pass.Location = new System.Drawing.Point(254, 115);
             this.textb_pass.Name = "textb_pass";
             this.textb_pass.PasswordChar = '*';
@@ -65,13 +67,14 @@
             // 
             // btn_entrar
             // 
+            this.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_entrar.Location = new System.Drawing.Point(309, 154);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(75, 23);
             this.btn_entrar.TabIndex = 3;
             this.btn_entrar.Text = "Entrar";
             this.btn_entrar.UseVisualStyleBackColor = true;
-            this.btn_entrar.Click += new System.EventHandler(this.button1_Click);
+            this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
             // 
             // Login
             // 
@@ -85,6 +88,10 @@
             this.Controls.Add(this.pic_logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(476, 282);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(476, 282);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
