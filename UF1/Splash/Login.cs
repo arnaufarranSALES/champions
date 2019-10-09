@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Windows.Forms; 
 
 namespace Splash
 {
@@ -17,7 +17,7 @@ namespace Splash
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_entrar_Click(object sender, EventArgs e)
         {
             Entrar();
         }
@@ -50,7 +50,7 @@ namespace Splash
             {
                 String msg_error = "ERROR. USUARI O CONTRASENYA INCORRECTES";
 
-                MessageBox.Show(msg_error, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(msg_error, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

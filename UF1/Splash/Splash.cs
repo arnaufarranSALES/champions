@@ -23,7 +23,7 @@ namespace Splash
         {
             counter++;
             progress.PerformStep();
-            percent.Text = progress.Value.ToString() + "%";
+            percent.Text = progress.Value.ToString() + '%';
 
             if (counter > 100)
             {
