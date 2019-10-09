@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
 =======
@@ -78,6 +79,8 @@
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
 =======
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
+=======
+>>>>>>> parent of be8a6ba... Creacion Menu - v1.0
     <Compile Include="Splash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +89,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -100,6 +104,8 @@
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
 =======
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
+=======
+>>>>>>> parent of be8a6ba... Creacion Menu - v1.0
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
