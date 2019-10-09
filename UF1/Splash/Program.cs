@@ -17,10 +17,14 @@ namespace Splash
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new Menu());
 =======
             Application.Run(new Login());
 >>>>>>> 8c840af3fbc925e889f9dc1c618f9caf9a211f00
+=======
+            Application.Run(new Splash());
+>>>>>>> parent of be8a6ba... Creacion Menu - v1.0
         }
     }
 }
