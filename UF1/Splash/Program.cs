@@ -19,6 +19,7 @@ namespace Splash
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new Menu());
 =======
             Application.Run(new Login());
@@ -26,6 +27,9 @@ namespace Splash
 =======
             Application.Run(new Splash());
 >>>>>>> parent of be8a6ba... Creacion Menu - v1.0
+=======
+            Application.Run(new Menu());
+>>>>>>> parent of 5522185... Creacion Menu - V1.0
 =======
             Application.Run(new Menu());
 >>>>>>> parent of 5522185... Creacion Menu - V1.0
