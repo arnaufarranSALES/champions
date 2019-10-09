@@ -39,10 +39,13 @@
             // 
             // progress
             // 
+            this.progress.BackColor = System.Drawing.Color.White;
+            this.progress.ForeColor = System.Drawing.Color.DeepPink;
             this.progress.Location = new System.Drawing.Point(209, 262);
             this.progress.Name = "progress";
             this.progress.Size = new System.Drawing.Size(209, 23);
             this.progress.Step = 1;
+            this.progress.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.progress.TabIndex = 0;
             // 
             // percent
@@ -73,6 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(640, 380);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.percent);
@@ -80,7 +84,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(640, 380);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(640, 380);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
